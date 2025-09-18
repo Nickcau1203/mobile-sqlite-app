@@ -240,7 +240,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "hsla(320, 100%, 78%, 1.00)", 
+    backgroundColor: "pink", 
     paddingTop: 50, 
     paddingHorizontal: 20,
     paddingBottom: 20,
@@ -256,7 +256,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     textAlign: "center",
     marginBottom: 20,
-    color: "rgba(255, 255, 255, 1)", 
+    color: "rgba(245, 245, 245, 1)", 
   },
   inputRow: {
     flexDirection: "row",
@@ -269,7 +269,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     padding: 12,
     backgroundColor: "hsla(0, 0%, 100%, 1.00)", 
-    color: "hsla(0, 0%, 0%, 1.00)",
+    color: "#afafaf",
     fontSize: 16,
   },
   button: {
@@ -292,7 +292,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   character: {
-    backgroundColor: "hsla(0, 0%, 0%, 1.00)", 
+    backgroundColor: "#ffb5c8", 
     padding: 15,
     borderRadius: 8,
     marginBottom: 10,
@@ -301,6 +301,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     borderWidth: 1,
     borderColor: "rgba(255, 0, 98, 1)", 
+
   },
   characterRecruited: {
     backgroundColor: "hsla(0, 0%, 100%, 1.00)", 
@@ -310,7 +311,7 @@ const styles = StyleSheet.create({
   characterText: {
     flex: 1,
     fontSize: 16,
-    color: "hsla(325, 100%, 84%, 1.00)", 
+    color: "#ab6d7d", 
     fontWeight: "500",
   },
   characterRecruitedText: {
